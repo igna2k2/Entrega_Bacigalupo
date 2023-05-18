@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* todo el codigo */
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body{
+    background-image: url(../img/pexels-instawalli-176851.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.distancia{
+    line-height: 5;
+}
+
+.imagen{
+    width: 600px;
+    height: auto;
+}
+/* todo el codigo */
+
+/* todo el header */
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #393646;
+}
+
+header nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header ul li{
+    display: inline-block; 
+    margin-right: 40px; 
+}
+
+header a{
+    text-decoration: none; 
+}
+/* todo el header */
+
+/* main */
+main{
+    padding-top: 65px; 
+    min-height: 100vh;
+}
+
+main nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+main nav li{
+    margin-right: 20px;
+}
+
+main nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.contenedor img {
+    float: left; /* La imagen se posiciona a la izquierda */
+    margin-right: 10px; /* Deja un espacio de 10px entre la imagen y el texto */
+}
+/* main *?
+
+/* footer */
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.redes{
+    display: inline-block;
+}
+
+.redes a{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.redes img{
+    height: 30px;
+    width: auto;
+}
+/*footer*/
