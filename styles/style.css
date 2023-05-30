@@ -12,6 +12,7 @@ body {
     background-position: center;
     min-height: 100vh;
     margin: 0;
+    color: white;
 }
 /* todo */
 
@@ -49,6 +50,7 @@ header {
 /* main */ 
 main {
     padding-top: 100px;
+    margin-bottom: 400px;
 }
 
 .container {
@@ -74,6 +76,12 @@ main {
     color: white;
     text-decoration: none;
 }
+
+img{
+    width: 1000px;
+    padding: px;
+}
+
 /* main */ 
 
 /* footer */
