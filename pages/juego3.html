@@ -5,34 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <script src="./scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../styles/bootstrap.min.css">
+    <script src="../scripts/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
 <!-- inicio header -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/Juegos.html">Juegos</a></li>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Logo</a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/Juegos.html">Juegos</a></li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
 <!-- fin header -->
 
 <!-- inicio main -->
 <main>
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="contenedor">
-                    <img src="../img/mc.webp" alt="Minecraft" class="img-fluid">
-                    <p>Minecraft es un videojuego tipo sandbox, su traducción literal sería “caja de arena” y es lo que representa la experiencia de juego. Los jugadores pueden modelar el mundo a su gusto, destruir y construir, como si estuviesen jugando en una caja de arena.</p>
-                </div>
-                <a href="#" class="distancia"><i class="fas fa-download"></i> <p>steam</p></a>
+        <div>
+            <div>
+                <img src="../img/mc.webp" alt="Minecraft" class="img-fluid">
+                <p>Minecraft es un videojuego tipo sandbox, su traducción literal sería “caja de arena” y es lo que representa la experiencia de juego. Los jugadores pueden modelar el mundo a su gusto, destruir y construir, como si estuviesen jugando en una caja de arena.</p>
             </div>
+            <a class="descarga" href="#" class="distancia"><i class="fas fa-download"></i> <p>steam</p></a>
         </div>
     </div>
 </main>

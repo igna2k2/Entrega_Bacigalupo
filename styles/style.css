@@ -49,7 +49,7 @@ header {
 
 /* main */ 
 main {
-    padding-top: 100px;
+    padding-top: 150px;
     margin-bottom: 400px;
 }
 
@@ -77,9 +77,15 @@ main {
     text-decoration: none;
 }
 
-img{
+.descarga {
+color: white;
+text-decoration: none;
+}
+
+img {
     width: 1000px;
-    padding: px;
+    height: auto;
+    padding: 10px;
 }
 
 /* main */ 
