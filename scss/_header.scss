@@ -1,0 +1,29 @@
+/* header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, black, gray);
+    .navbar {
+        padding: 10px;
+    }
+    .navbar-brand {
+        font-size: 24px;
+    }
+    .navbar-toggler {
+        color: $colorfondo;
+        border-color: $colorfondo;
+    }
+    .navbar-nav {
+        margin-left: auto;
+    }
+    .nav-link {
+        color: $colorfondo;
+        font-size: 18px;
+        margin-left: 20px;
+            &:hover {
+                transform:scale(1.2)
+        }
+    }
+}
+/* header */

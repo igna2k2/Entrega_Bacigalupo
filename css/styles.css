@@ -1,0 +1,102 @@
+/* variables*/
+/* variables*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* todo */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(../img/pexels-instawalli-176851.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+  color: white;
+}
+
+/* todo */
+/* header */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-image: linear-gradient(to right, black, gray);
+}
+header .navbar {
+  padding: 10px;
+}
+header .navbar-brand {
+  font-size: 24px;
+}
+header .navbar-toggler {
+  color: white;
+  border-color: white;
+}
+header .navbar-nav {
+  margin-left: auto;
+}
+header .nav-link {
+  color: white;
+  font-size: 18px;
+  margin-left: 20px;
+}
+header .nav-link:hover {
+  transform: scale(1.2);
+}
+
+/* header */
+/* main */
+main {
+  padding-top: 150px;
+  margin-bottom: 400px;
+}
+main img {
+  width: 1000px;
+  height: auto;
+  padding: 10px;
+}
+main .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+main .text-center {
+  text-align: center;
+  color: white;
+}
+main .list-group {
+  margin-top: 30px;
+}
+main .list-group-item {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+}
+main .list-group-item a {
+  color: white;
+  text-decoration: none;
+}
+main .descarga {
+  color: white;
+  text-decoration: none;
+}
+
+/* main */
+/* footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+footer .redes a {
+  display: inline-block;
+  margin-right: 10px;
+  color: white;
+  font-size: 24px;
+}
+
+/* footer */
+
+/*# sourceMappingURL=styles.css.map */
